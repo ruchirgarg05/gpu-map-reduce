@@ -1,7 +1,5 @@
 # MapReduce-GPU
 
-Course Project for CS6023: GPU Programming course at IIT Madras
-
 This contains implementation of a few algorithms following Map-Reduce framework, written using CUDA & Thrust library. Algorithms implemented -
 
 1. [K Means](https://github.com/rajat2004/MapReduce-GPU/tree/master/KMeans)
@@ -28,8 +26,6 @@ OS: Ubuntu 18.04\
 CUDA: 10.0\
 GPU: Nvidia GTX 1060 MaxQ\
 CPU: i7-8750H (6 cores, 12 threads)
-
-**Note**:: In some system configurations, the compilation can fail due to AVX512 related errors. In that case, try removing the -O3 flag from the Makefiles.
 
 References:
 
