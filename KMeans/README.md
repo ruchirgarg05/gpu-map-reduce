@@ -1,5 +1,9 @@
 ## K-Means Clustering
 
+General Idea: 
+Map: Assign Data points to the closest centre (assign centroids)
+Reduce: Revise cluster centers as mean of the new clusters. 
+
 Modified version of the Map-Reduce framework used in the other two examples to implement K-Means
 It's modified to run the steps for a specific number of iterations, and also pass the centroids (which are outputs) to the mapper kernel as well, since they're required to generate the mapping.
 
