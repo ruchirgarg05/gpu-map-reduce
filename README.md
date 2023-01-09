@@ -3,8 +3,8 @@
 This contains implementation of a few algorithms following Map-Reduce framework, written using CUDA & Thrust library. Algorithms implemented -
 
 1. [K Means](https://github.com/rajat2004/MapReduce-GPU/tree/master/KMeans)
-2. [Monte Carlo Pi Estimation](https://github.com/rajat2004/MapReduce-GPU/tree/master/Pi-Estimation) (GPU) - ([CPU codes](https://github.com/rajat2004/MapReduce-GPU/tree/master/CPU))
-3. [Sorting Random numbers in bins](https://github.com/rajat2004/MapReduce-GPU/tree/master/Random-Bins)
+2. [Monte Carlo Pi Estimation](https://https://github.com/ruchirgarg05/gpu-map-reduce/tree/master/Pi-Estimation) (GPU) - ([CPU codes](https://github.com/ruchirgarg05/gpu-map-reduce/tree/master/CPU))
+3. [Sorting Random numbers in bins](https://github.com/ruchirgarg05/gpu-map-reduce/tree/master/Random-Bins)
 
 Results are described in the individual folders, this gives a general overview.
 
