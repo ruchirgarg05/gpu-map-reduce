@@ -1,4 +1,11 @@
-# K-MEANS, MapReduce-GPU
+# How It Works?
+The core of the program lies in the map_reduce.cu file, which contains the generic code that performs the MapReduce job including the Cuda kernels and key/value pair partitioning. This file should stay the same for all MapReduce jobs.
+
+The config.cuh file contains the type definitions and constants necessary for the job. These are specific for each MapReduce job and must be modified by a developer (as in the examples).
+
+In addition, users must supply a definition of a mapper and reducer function, which transform the input data into a set of key/value pairs and aggregate a set of key/value pairs with the same key into an output respectively.
+
+## K-MEANS, MapReduce-GPU
 
 This contains implementation of a few algorithms following Map-Reduce framework, written using CUDA & Thrust library. Algorithms implemented -
 
