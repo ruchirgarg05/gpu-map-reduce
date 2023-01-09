@@ -1,4 +1,4 @@
-# MapReduce-GPU
+# K-MEANS, MapReduce-GPU
 
 This contains implementation of a few algorithms following Map-Reduce framework, written using CUDA & Thrust library. Algorithms implemented -
 
